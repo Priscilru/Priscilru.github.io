@@ -1,51 +1,292 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <style>
-            h2 {
-                color: #7706c7;
-            }
-            body {
-                color: #035403;
-                background-color: rgb(171, 233, 230);
-            }
+<html lang="en">
 
-        </style>
-        <title>Priscilla Wadlington</title>
-    </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-    <body>
-    <h1>Priscilla Wadlington</h1>   
-    <p>
-        <h2>About Me:</h2>
-    </p>
-    <img src="regal-moth-caterpillar-robert-jensen.jpg" alt="Regal Moth Caterpillar, a.k.a. The hickory horned devil" width=200>
-    I am a current student at 
-    <a href="https://www.warren-wilson.edu/">Warren Wilson College</a>
-    majoring in Data Science and Biology! I am passionate about data driven solutions to problems occuring in the natural world.
-    <p>
-        <h2>Projects:</h2>
-    </p>
-    Check back soon to see cool projects!
-    <p>
-        <h2>Resume:</h2>
-    </p>
-    Find resume here soon.
-    <p>
-        <h2>Classes Taken:</h2>
-    </p>
-    <li>
-        Intro to Data Science
-    </li>
-    <li>
-        Advanced Data Science
-    </li>
-    <li>
-        Python
-    </li>
-    <li>
-        Botany
-    </li>
-    </body>
+  <!-- Put your site title here -->
+  <title>
+    Priscilla Wadlington  | Portfolio Website  
+  </title>
+
+  <meta name="description" content="I am a student at Warren Wilson College, and I am currently building a collection of my projects! I am majoring in Data Science and Biology, and I do my best to make cool things that link my passion for two together.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Priscilla: Python, R Studio, Biology, Botany" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#herbarium" class="nav__link">Herbarium Projects</a></li>
+          <li class="nav__item"><a href="#nsurs" class="nav__link">Undergraduate Research</a></li>
+          <li class="nav__item"><a href="#precapstone" class="nav__link">Data Science PreCapstone</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact me!</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Priscilla Wadlington</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>I am a student at Warren Wilson College, and I am currently building a collection of my projects! I am majoring in Data Science and Biology, and I do my best to make cool things that link my passion for two together.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Herbarium ***** -->
+
+    <section class="herbarium" id="herbarium">
+      <div class="row">
+        <h2>Herbarium Projects</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>EREN Plot Data</h3>
+              <p>
+                A study into how the carbon sequestration of Warren Wilson forests have changed over time.
+              </p>
+              <ul class="work__list">
+                <li>More</li>
+                <li>To</li>
+                <li>Come</li>
+                <li>Soon!!</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Priscilru/Priscilru.github.io" title="View Source Code" target="_blank">
+                  <img src="./images/Rugby-Ball-Image.jfif" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/hemlock-forest.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Phenology Trail</h3>
+              <p>
+                A study of seasonal change markers over time on Warren Wilson Campus.
+              </p>
+              <ul class="work__list">
+                <li>More</li>
+                <li>To</li>
+                <li>Come</li>
+                <li>Soon!</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Priscilru/Priscilru.github.io">
+                  <img src="./images/Rugby-Ball-Image.jfif" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/mountain_laurel.jfif" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <!-- ***** NSURS ***** -->
+
+  <section class="nsurs" id="nsurs">
+    <div class="row">
+      <h2>Undergraduate Research Capstone</h2>
+      <div class="work__boxes">
+
+        <!-- Each div with the work__box class is a project. -->
+
+        <div class="work__box">
+          <div class="work__text">
+            <h3>NSURS</h3>
+            <p>
+              Developing a Machine Learning Model to Predict the Effectiveness of Metal Carbides as Catalysts in the Hydrogen Evolution Reaction and Analyzing Results Using Density Functional Theory Calculations; A research study in collaboration with Dr. Yuemei Zhang and Dr. Kim Borges.
+            </p>
+            <ul class="work__list">
+              <li>More</li>
+              <li>To</li>
+              <li>Come</li>
+              <li>Soon!!</li>
+            </ul>
+
+            <div class="work__links">
+              <a href="#" target="_blank" class="link__text">
+                Visit Site <span>&rarr;</span>
+              </a>
+              <a href="https://github.com/Priscilru/Priscilru.github.io" title="View Source Code" target="_blank">
+                <img src="./images/Rugby-Ball-Image.jfif" class="work__code" alt="GitHub">
+              </a>
+            </div>
+          </div>
+          <div class="work__image-box">
+            <img src="./images/h2car.jpg" class="work__image" alt="Project 1" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Data Science Precapstone ***** -->
+
+  <section class="precapstone" id="precapstone">
+    <div class="row">
+      <h2>Data Science PreCapstone</h2>
+      <div class="work__boxes">
+
+        <!-- Each div with the work__box class is a project. -->
+
+        <div class="work__box">
+          <div class="work__text">
+            <h3>Thesis Project</h3>
+            <p>
+              Well, it's not quite done yet so you'll just have to check back in later!
+            </p>
+            <ul class="work__list">
+              <li>More</li>
+              <li>To</li>
+              <li>Come</li>
+              <li>Soon!!</li>
+            </ul>
+
+            <div class="work__links">
+              <a href="#" target="_blank" class="link__text">
+                Visit Site <span>&rarr;</span>
+              </a>
+              <a href="https://github.com/Priscilru/Priscilru.github.io" title="View Source Code" target="_blank">
+                <img src="./images/Rugby-Ball-Image.jfif" class="work__code" alt="GitHub">
+              </a>
+            </div>
+          </div>
+          <div class="work__image-box">
+            <img src="./images/utility_work.jpg" class="work__image" alt="Project 1" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I am a college student at Warren Wilson College studying Data Science and Biology. I love plants, rock climbing, rugby, and learning about the world around me.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/regal-moth-caterpillar-robert-jensen.jpg" alt="This is supposed to be a photo of a regal moth caterpillar..." />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Do you have any questions for me? Send me an email here! (ps. link does not work... just shoot me an email!)
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="pwadlington.f22@warren-wilson.edu" class="btn">pwadlington.f22@warren-wilson.edu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/Priscilru/Priscilru.github.io" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile (not active)" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar (Added by user: Super awesome template, I highly reccomend!!)</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
 </html>
